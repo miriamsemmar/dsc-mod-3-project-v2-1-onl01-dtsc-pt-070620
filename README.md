@@ -14,6 +14,9 @@ For this project, we leveraged data from [Kaggle](https://www.kaggle.com/becksdd
 
 - We started out by cleaning our data, scaling our data and handling class imbalance. 
 
+<p align="center">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Churn%20Proportion.png" />
+</p>
 
 - Then, we tested multiple algorithms and narrowed our focus to three. 
 - We then used these three algorithms to perform GridSearchCV in order to improve the model performance.
