@@ -18,20 +18,29 @@ For this project, we leveraged data from [Kaggle](https://www.kaggle.com/becksdd
   <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Churn%20Proportion.png" />
 </p>
 
-- Then, we tested multiple algorithms and narrowed our focus to three. 
+- Then, we tested multiple algorithms and narrowed our focus to three algorithms. We moved forward with the three algorithms with the highest recall scores, ignoring Decision Trees because the precision score was very low.  
+
+<p align="center">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Baseline%20Models.png" />
+</p>
+
 - We then used these three algorithms to perform GridSearchCV in order to improve the model performance.
 
 
 # Final Model
 
-The main goal of this project is to create a classification model. For this project you have the choice to either:
+Our XGBoost model using GridSearch CV was our best resulting model. We were able to improve all 4 scoring metrics, settling on a final model with 78% recall and 94% accuracy.
 
-- choose a data set from a curated list
-- choose your own data set _outside_ of the curated list. 
+<p align="center">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final%20Model%20Scores.png" />
+</p>
 
-The data guidelines for either option are shown below
+Interpretation: our model is correctly predicted churn 78% of the time. The model correctly guessed customer behavior with 94% accuracy.
 
-For this project, you're going to select a dataset of your choosing and create a classification model. You'll start by identifying a problem you can solve with classification, and then identify a dataset. You'll then use everything you've learned about Data Science and Machine Learning thus far to source a dataset, preprocess and explore it, and then build and interpret a classification model that answers your chosen question.
+<p align="right">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final_Model.png" />
+</p>
+ 
 
 # Recommendations & Next Steps
 
