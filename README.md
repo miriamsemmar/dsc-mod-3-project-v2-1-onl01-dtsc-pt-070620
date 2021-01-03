@@ -15,13 +15,13 @@ For this project, we leveraged data from [Kaggle](https://www.kaggle.com/becksdd
 - We started out by cleaning our data, scaling our data and handling class imbalance. 
 
 <p align="center">
-  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Churn%20Proportion.png" />
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Churn%20Proportion.png" width="600" />
 </p>
 
 - Then, we tested multiple algorithms and narrowed our focus to three algorithms. We moved forward with the three algorithms with the highest recall scores, ignoring Decision Trees because the precision score was very low.  
 
 <p align="center">
-  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Baseline%20Models.png" />
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Baseline%20Models.png"  width="600"/>
 </p>
 
 - We then used these three algorithms to perform GridSearchCV in order to improve the model performance.
@@ -37,8 +37,8 @@ Our XGBoost model using GridSearch CV was our best resulting model. We were able
 
 Interpretation: our model is correctly predicted churn 78% of the time. The model correctly guessed customer behavior with 94% accuracy.
 
-<p align="right">
-  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final_Model.png" />
+<p align="center">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final_Model.png" width="600" />
 </p>
  
  
@@ -46,7 +46,7 @@ Interpretation: our model is correctly predicted churn 78% of the time. The mode
  
  We used SHAP to help detrmine feature importance. 
  
- <p align="right">
+ <p align="center">
   <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/SHAP_Feature_Importance.png" width="600" />
 </p>
  
