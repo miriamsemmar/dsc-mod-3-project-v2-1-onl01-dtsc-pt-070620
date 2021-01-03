@@ -32,7 +32,7 @@ For this project, we leveraged data from [Kaggle](https://www.kaggle.com/becksdd
 Our XGBoost model using GridSearch CV was our best resulting model. We were able to improve all 4 scoring metrics, settling on a final model with 78% recall and 94% accuracy.
 
 <p align="center">
-  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final%20Model%20Scores.png" />
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final%20Model%20Scores.png"  width="600"/>
 </p>
 
 Interpretation: our model is correctly predicted churn 78% of the time. The model correctly guessed customer behavior with 94% accuracy.
