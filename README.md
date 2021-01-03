@@ -41,10 +41,27 @@ Interpretation: our model is correctly predicted churn 78% of the time. The mode
   <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/Final_Model.png" />
 </p>
  
+ 
+ ## Feature Importance
+ 
+ We used SHAP to help detrmine feature importance. 
+ 
+ <p align="right">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/SHAP_Feature_Importance.png" width="200" />
+</p>
+ 
+- Number of customer service calls
+ - Customers with a high number of customer service calls are more likely to churn
+- Number of daily call minutes and evening minutes
+ - The higher the number of minutes, the more likely a customer is to churn
+- Users without an international plan are less likely to churn
+- Users without an voicemail plan are more likely to churn
+
 
 # Recommendations & Next Steps
 
-You are allowed to select one of the four data sets described below. Each comes with its own advantages and disadvantages, and, of course, its own associated business problem and stakeholders. It may be desirable to flesh out your understanding of the audience or the business proposition a little more than sketched out here. If you select one of these four data sets, you **need no further approval from your instructor**.
+We’d recommend recreating the model with some our strongest features to try to improve our recall score. 
 
+With the information we have, we recommend evaluating the current plan types offered. The high correlation between call time and churn may indicate that customers need more plan flexibility. Consider adding unlimited plans to the current lineup. We can also test including voicemail plans as a part of these plans. 
 
-1) [Chicago Car Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if). Note this links also to [Vehicle Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) and to [Driver/Passenger Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d).
+We also need to further investigate the effectiveness of our current customer service offerings. Moreover, we should be considering offering discounts or incentives to unhappy customers who contact us in order to help improve the relationship.
