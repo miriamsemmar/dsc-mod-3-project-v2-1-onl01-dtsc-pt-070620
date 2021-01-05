@@ -46,8 +46,8 @@ Interpretation: our model is correctly predicted churn 78% of the time. The mode
  
  We used SHAP to help detrmine feature importance. 
  
- <p align="right">
-  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/SHAP_Feature_Importance.png" width="200" />
+ <p align="center">
+  <img src="https://github.com/miriamsemmar/dsc-mod-3-project-v2-1-onl01-dtsc-pt-070620/blob/master/SHAP_Feature_Importance.png" width="600" />
 </p>
  
 - Number of customer service calls
